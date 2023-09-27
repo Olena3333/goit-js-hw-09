@@ -8,9 +8,10 @@ let id = null;
 function changeBackground() {
   body.style.background = getRandomHexColor();  
 }
+
 const onStartClick = () => {
     let id = setInterval(changeBackground(), 1000); 
-    if (!id === null) {
+    if (id === null) {
         startBtn.style = "disabled"; 
     }
 }
