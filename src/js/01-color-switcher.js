@@ -6,7 +6,6 @@ startBtn.addEventListener('click', onStartClick);
 stopBtn.addEventListener('click', onStopClick);
 
 let id = null;
-
 stopBtn.disabled = true;
 
 function changeBackground() {
