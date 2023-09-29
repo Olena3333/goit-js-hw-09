@@ -35,6 +35,7 @@ const options = {
     }
   },
 };
+
 flatpickr(input, options);
 
 function convertMs(ms) {
